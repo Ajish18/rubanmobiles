@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ruban Mobiles</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+        <div class="text-box">
+            <h1>Best Mobile Sellers in Kanyakumari</h1>
+            <p>"Discover the latest smartphones at Ruban Mobiles. Best deals, top brands,and expert guidance—<br>your one-stop mobile showroom for all your tech needs!"
+            </p>
+            <a href="contact.html">Visit Us To know More</a>
+        </div>
+        </section>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hiddenMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+        <section class="benifits">
+            <h1>Our Services</h1>
+            <p>Our Services: Quality care, expert technicians, best offers, and support.</p>
+            <br>
+            <br>
+            <div class="row">
+                <div class="benifits-col">
+                    <img src="images/customercare.png">
+                    <div class="layer">
+                        <h3>Customer Care</h3>
+                    </div>
+                </div>
+                <div class="benifits-col">
+                    <img src="images/tech.png">
+                    <div class="layer">
+                        <h3>Technicians</h3>
+                    </div>
+                </div>
+                <div class="benifits-col">
+                    <img src="images/offer.png">
+                    <div class="layer">
+                        <h3>Offers</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="moto">
+            <h1>Our Sales Moto</h1>
+            <p>"At Ruban Mobiles, we delight our customers with expert support, personalized care, exclusive gifts, and convenient EMI options."</p>
+
+        </section>
+
+    </body>
+</html>

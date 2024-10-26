@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!-- Add Font Awesome CDN -->
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Ruban Mobiles</h1>
+        <p class="slogan">Your One-Stop Mobile Showroom</p> <!-- Add your slogan here -->
+    </header>
+    <div class="contact-container">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095737!2d77.5258521!3d8.1179414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f324129001c3%3A0xd1fc63bce77ec681!2sRuban%20Mobiles%20%7C%20Mobile%20shop%20in%20Kottaram!5e0!3m2!1sen!2sus!4v1632098462245!5m2!1sen!2sus" 
+                width="400" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>
+                Mobile Number: 
+                <a href="tel:7550353533" class="phone-number">
+                    <i class="fas fa-phone-alt call-icon"></i> <!-- Replace with Font Awesome icon -->
+                    <strong>7550353533</strong>
+                </a>
+            </p>
+            <p>
+                <a href="mailto:shopowner@gmail.com" class="email-icon">
+                    <i class="fas fa-envelope"></i> <!-- Replace with Font Awesome icon -->
+                </a>
+                <a href="https://www.instagram.com/ruban_mobiles_kottaram?igsh=dW5oYnowZ2FsN28y" class="instagram-icon">
+                    <i class="fab fa-instagram"></i> <!-- Replace with Font Awesome icon -->
+                </a>
+            </p>
+            <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

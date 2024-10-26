@@ -1,0 +1,236 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #333;
+}
+
+/* Containers */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+.header {
+    background-color: #007acc; /* Blue background for header */
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f0faff; /* Slightly lighter blue background for sections */
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007acc;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Facilities Section */
+.facilities {
+    padding: 2rem 0;
+    text-align: left;
+    background-color: white;
+}
+
+.facilities h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007acc;
+    text-align: center;
+}
+
+.facilities p, .facilities ul {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.facilities ul {
+    padding-left: 1.5rem;
+}
+
+.facilities ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Values Section */
+.values {
+    background-color: #e6f7ff;
+    color: #333;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #007acc;
+}
+
+.value-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.value-item img {
+    width: 100%;
+    max-width: 150px; /* Resized image */
+    margin-bottom: 1rem;
+}
+
+.value-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #007acc;
+}
+
+.value-item p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    text-align: center;
+}
+
+/* Home Appliances Section */
+.appliances {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: white;
+}
+
+.appliances h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007acc;
+}
+
+.appliance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appliance-item img {
+    width: 100%;
+    max-width: 150px; /* Resized image */
+    margin-bottom: 1rem;
+}
+
+.appliance-item p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+}
+
+/* Team Section */
+.team {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f0faff;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007acc;
+}
+
+.team p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #007acc;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p, ul, li {
+        font-size: 1rem;
+    }
+
+    img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p, ul, li {
+        font-size: 0.9rem;
+    }
+
+    img {
+        max-width: 100px;
+    }
+}
